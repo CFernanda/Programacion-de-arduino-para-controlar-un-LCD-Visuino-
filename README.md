@@ -1,4 +1,4 @@
-# VISUINO
+# Programación de Arduino, control de un LCD en Visuino
 Introducción
 Se puede hacer uso de diferentes softwares para la programación en arduino y todo lo que en el incluya, en este caso se utiliza el software Visuino para la programación de Arduino  y el control de un LCD.
 
