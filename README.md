@@ -45,5 +45,69 @@ Para programar la board se necesita el IDE Arduino.
 
 ![3_partes.jpg](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/3_partes.jpg)
 
+
+**LCD**
+
+El uso de las LCD se ha visto muy requerido tanto en la industria como en los proyectos escolares o de medianas empresas, ya que su uso es bastante agradable a la vista, aunque muchos de nosotros estamos acostumbrados a escuchar dichas siglas y pensar en una pantalla para TV o el display de un ordenador, mientras que los display LCD tienen una gama más abierta de aplicaciones, desde relojes, calculadoras, electrodomésticos, impresoras, etc.
+
+*¿Qué es una LCD?
+
+Las siglas LCD significan “Liquid Cristal Display” ó pantalla de cristal líquido. Es una pantalla plana basada en el uso de una sustancia liquida atrapada entre dos placas de vidrio, haciendo pasar por este una corriente eléctrica a una zona especifica, para que así esta se vuelva opaca, y además cuenta (generalmente) con iluminación trasera.
+Las pantallas LCD de color, cada pixel individual se divide en tres cédulas o sub pixeles con los colores RGB (Rojo, Verde y Azul) respectivamente. Y así cada pixel puede controlarse para  producir una gran variedad de colores distintos.
+ 
+***Características de las LCD***
+
+Existen una gran variedad de proyectos en los que se incluye una LCD para interfaz con el usuario, lo que modifica las necesidades, las cuales es importante atender más que nada por los precios. Y la importancia de esta en el proyecto.
+Algunos factores básicos a considerar en una LCD son:
+
+* Tamaño: El tamaño de un panel LCD generalmente se mide a lo lardo de su diagonal, expresado generalmente en pulgadas. Sin embargo existen más características que pueden describir las dimensiones aproximadas, como por ejemplo la LCD 16×2 (negro sobre fondo azul) se refiere a que tiene la capacidad de tener al mismo tiempo 16 caracteres de manera horizontal en dos renglones (cada uno).
+
+* Resolución: Esta se expresa con las dimensiones horizontal y vertical. las pantallas HD tienen una resolución de 1920×1080 por ejemplo. Y esta puede alcanzar con esta resolución una gran variedad de tamaño, pero si no se ocupa gran a gran detalle esta, estarías desperdiciando calidad (por no utilizar algo que tienes disponible). En 5hz se maneja, por ejemplo la LCD gráfica 128×64 (negro sobre fondo verde). Que a pesar de su tamaño la consideramos suficiente para las aplicaciones estudiantiles, y algunas industriales donde se requiera tener algo claro y legible en un tamaño práctico.
+
+* Brillo: La luminosidad de la pantalla también es importante analizarla, ya que según la aplicación en la que se encuentre esta, requerirá más luz para poder apreciarse, o viceversa. Por lo que la mayoría cuentan con una luz trasera y la posibilidad de poder controlar su luminosidad.
+
+* Iluminación CCFL: Esta iluminación básicamente consta poner detrás de la pantalla una matriz de CCFL, o bien en las orillas o bordes de la pantalla. Sin embargo es más consumo que el led y tiene un menor tiempo de vida, por lo que poco a poco se ah ido poniendo en segundo plano.
+Iluminación LED Esta iluminación puede presentarse en dos maneras, en un solo color, (generalmente blanco) o bien en RGB, los blanco suelen ser los más utilizados. Estos al igual que la iluminación CCFL, pueden estar formando una matriz en la parte de atrás, o bien pueden colocarse a los extremos del display.
+ 
+* Contraste:Es la relación entre la intensidad más brillante y la más oscura.
+
+* Angulo de visión: es el ángulo máximo en el que el usuario puede visualizar lo que está en la LCD sin que se pierda mucha calidad.
+Número de caracteres. Hay diversos tamaños de LCD y con ello nos limitamos o nos expandamos la posibilidad de mostrar en el display cierto número de caracteres, los tamaños estándar que manejamos son: 16×2, 20×4, 8×2.
+
+![4_LCD.png](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/4_LCD.png)
+
+***EJEMPLO DE COMUNICACIÓN.***
+ 
+1 Conexión.
+
+Tomaremos como ejemplo un display LCD 16×2 (negro sobre fondo azul). Para el control de esta Arduino tiene una librería llamada LiquidCrystal la cual te permite controlar LCD que sean compatibles con el driver Hitachi HD44780. Sin embargo nosotros la modificaremos un poco para que diga 5hz electrónica.
+
+2 Pines.
+
+El pin “RS” controla en que parte de la memoria LCD se están escribiendo los datos. Es aquí donde se mantiene la información que sale en la pantalla, o donde el controlador de esta busca los siguientes datos a mostrar.
+El pin de “lectura/escritura”(R/W) selecciona el modo de lectura o de escritura.
+ EL pin para habilitar “enable”, este habilita los registros.
+8 pines de datos “D00-D07”, Los estados de estos pines son bits que estás escribiendo en un registro, o valores que estás leyendo.
+Existe un pin “de contraste” del display.
+Existe un pin “de retro-iluminación” (Bklt+ y Bklt-) que le permiten controlar la retroiluminación.
+Pin de alimentación (+5V y GND).
+
+3 Circuito.
+
+El pin “RS” del LCD conectado a la E/S digital en el pin 12. – El pin “enable” del LCD conectado a la E/S digital en el pin 11. – Los pines “D4 – D7” conectado a las E/S digitales desde el pin 5 hasta el 2. – Los pines de voltaje y tierra conectados a +5V y tierra. – El pin “Vo”, que controla el constraste, conectado a un potenciómetro. Ajusta el potenciómetro para que el texto tenga el contraste que tú quieras.
+
+![5_paraleloArduinoLCD.png](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/5_paraleloArduinoLCD.png)![6_esquema-LCD1-300x192.png]( https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/6_esquema-LCD1-300x192.png
+) 
+
+Diagrama de conexión en paraleo Arduino y LCD.                            Esquema de conexión Arduino y LCD.
+
+
+
+
+
+
+
+
+
 **BIBLIOGRAFÍAS**
 http://arduino.cc/
