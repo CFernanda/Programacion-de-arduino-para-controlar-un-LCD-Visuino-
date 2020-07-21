@@ -13,7 +13,7 @@ Aprender a utilizar el software Visuino para la programación de un arduino con 
 
 **Arduino**
 
-![1_arduino.png](https://github.com/CFernanda/https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/1_arduino.png)
+![2_arduinoplaca.png](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/2_arduinoplaca.png)
 
 Arduino es una plataforma de desarrollo basada en una placa electrónica de hardware libre que incorpora un microcontrolador re-programable y una serie de pines hembra. Estos permiten establecer conexiones entre el microcontrolador y los diferentes sensores y actuadores de una manera muy sencilla (principalmente con cables dupont).
 
@@ -43,7 +43,7 @@ Para programar la board se necesita el IDE Arduino.
 
 **Partes**
 
-![3_partes.png](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/3_partes.png)
+![3_partes.jpg](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/3_partes.jpg)
 
 **BIBLIOGRAFÍAS**
 http://arduino.cc/
