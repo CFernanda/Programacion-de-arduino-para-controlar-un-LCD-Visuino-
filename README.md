@@ -1,5 +1,6 @@
 # Programación de Arduino, control de un LCD en Visuino
-**Introducción**
+
+### Introducción
 
 Se puede hacer uso de diferentes softwares para la programación en arduino y todo lo que en el incluya, en este caso se utiliza el software Visuino para la programación de Arduino  y el control de un LCD.
 
@@ -9,9 +10,9 @@ Se puede hacer uso de diferentes softwares para la programación en arduino y to
 
 Aprender a utilizar el software Visuino para la programación de un arduino con el fin de poder controlar un LCD,  mediante el análisis y la investigación llegar a implementarlo en dicho software con  el fin de entender su funcionamiento y familiarizarnos  para utilizarlo en el transcurso de la carrera.
 
-**Marco Teórico**
+### Marco Teórico
 
-**Arduino**
+**ARDUINO**
 
 ![1_arduino.png](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/1_arduino.png)
 
@@ -25,7 +26,6 @@ Parte Frontal
 Tiene todo lo necesario para manejar el controlador, simplemente conectamos al computador por medio del cable USB o una fuente de poder externa, que puede ser un adaptador AC-DC  o una batería, cabe aclarar que si se alimenta a través del cable USB en el ordenador no es necesario una fuente externa.
 
 ![2_arduinoplaca.png](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/2_arduinoplaca.png)
-
 
 Para programar la board se necesita el IDE Arduino.
 
@@ -50,12 +50,12 @@ Para programar la board se necesita el IDE Arduino.
 
 El uso de las LCD se ha visto muy requerido tanto en la industria como en los proyectos escolares o de medianas empresas, ya que su uso es bastante agradable a la vista, aunque muchos de nosotros estamos acostumbrados a escuchar dichas siglas y pensar en una pantalla para TV o el display de un ordenador, mientras que los display LCD tienen una gama más abierta de aplicaciones, desde relojes, calculadoras, electrodomésticos, impresoras, etc.
 
-*¿Qué es una LCD?
+**Qué es una LCD?**
 
 Las siglas LCD significan “Liquid Cristal Display” ó pantalla de cristal líquido. Es una pantalla plana basada en el uso de una sustancia liquida atrapada entre dos placas de vidrio, haciendo pasar por este una corriente eléctrica a una zona especifica, para que así esta se vuelva opaca, y además cuenta (generalmente) con iluminación trasera.
 Las pantallas LCD de color, cada pixel individual se divide en tres cédulas o sub pixeles con los colores RGB (Rojo, Verde y Azul) respectivamente. Y así cada pixel puede controlarse para  producir una gran variedad de colores distintos.
  
-***Características de las LCD***
+**Características de las LCD**
 
 Existen una gran variedad de proyectos en los que se incluye una LCD para interfaz con el usuario, lo que modifica las necesidades, las cuales es importante atender más que nada por los precios. Y la importancia de esta en el proyecto.
 Algunos factores básicos a considerar en una LCD son:
@@ -76,7 +76,7 @@ Número de caracteres. Hay diversos tamaños de LCD y con ello nos limitamos o n
 
 ![4_LCD.png](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/4_LCD.png)
 
-***EJEMPLO DE COMUNICACIÓN.***
+**Ejemplo de comunicación**
  
 1 Conexión.
 
@@ -104,7 +104,17 @@ Ajusta el potenciómetro para que el texto tenga el contraste que tú quieras.
 ![5_paraleloArduinoLCD.png](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/5_paraleloArduinoLCD.png)                                             ![6_esquema-LCD1-300x192.png]( https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/6_esquema-LCD1-300x192.png
 ) 
 
-Diagrama de conexión en paraleo Arduino y LCD.      Esquema de conexión Arduino y LCD.
+   Diagrama de conexión en paraleo Arduino y LCD.      Esquema de conexión Arduino y LCD.
+
+**VISUINO**
+
+![7_Visuino.png]( https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/7_Visuino.png)
+
+Visuino es el último software innovador de Mitov Software. Un entorno de programación visual que le permite programar sus placas Arduino. Actualmente es compatible con las placas oficiales Arduino, Raspberry Pi, Teensy, Femto IO, ESP8266, ESP32, Controllino, Goldilocks Analogue, FreeSoC2, chipKIT, micro: bit, Maple Mini y la cantidad de clones Arduino, sin embargo, no se limita a su soporte solo y las solicitudes de soporte de nuevo hardware son bienvenidas.
+
+Los componentes que se encuentran en el software Visuino representan sus componentes de hardware y podrá crear y diseñar sus programas fácilmente con la función de arrastrar y soltar. No se necesita equipo ni hardware para ejecutar el software en modo de diseño. Una vez que haya completado el diseño, puede conectar la carga de la placa Arduino y ejecutarla.
+
+![8_visuino.png]( https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/8_visuino.png)
 
 
 
@@ -114,5 +124,6 @@ Diagrama de conexión en paraleo Arduino y LCD.      Esquema de conexión Arduin
 
 
 
-**BIBLIOGRAFÍAS**
+### BIBLIOGRAFÍAS
 http://arduino.cc/
+https://www.visuino.com/
