@@ -96,10 +96,10 @@ Pin de alimentación (+5V y GND).
 
 El pin “RS” del LCD conectado a la E/S digital en el pin 12. – El pin “enable” del LCD conectado a la E/S digital en el pin 11. – Los pines “D4 – D7” conectado a las E/S digitales desde el pin 5 hasta el 2. – Los pines de voltaje y tierra conectados a +5V y tierra. – El pin “Vo”, que controla el constraste, conectado a un potenciómetro. Ajusta el potenciómetro para que el texto tenga el contraste que tú quieras.
 
-![5_paraleloArduinoLCD.png](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/5_paraleloArduinoLCD.png)![6_esquema-LCD1-300x192.png]( https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/6_esquema-LCD1-300x192.png
+![5_paraleloArduinoLCD.png](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/5_paraleloArduinoLCD.png)                         ![6_esquema-LCD1-300x192.png]( https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/6_esquema-LCD1-300x192.png
 ) 
 
-Diagrama de conexión en paraleo Arduino y LCD.                            Esquema de conexión Arduino y LCD.
+Diagrama de conexión en paraleo Arduino y LCD.                                Esquema de conexión Arduino y LCD.
 
 
 
