@@ -129,7 +129,7 @@ Los componentes que se encuentran en el software Visuino representan sus compone
 
  **VISUALINO**
  
- ![Visualino_logo.jpg](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/Visualino_logo.jpg)
+ ![9_visualino.jpg](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/9_visualino.jpg)
  
  **Figura 9:** Visualino
   
@@ -137,76 +137,64 @@ Entorno de programación visual para Arduino,permite hacer un programa con bloqu
 
 Los bloques generan el código de C/C++ en tiempo real en una ventana. El entorno es similar al del IDE de Arduino, con las mismas opciones principales: Verificar, Subir, Guardar, Cargar y Monitor.
 
-![entorno%20visualino.JPG](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/entorno%20visualino.JPG)
+![10_entorno%20visualino.JPG](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/10_entorno%20visualino.JPG)
 
  **Figura 10:** Entorno Visualino
  
  ## Manual de Usuario
+ 
+**Descarga e Instalación de Visualino**
 
-Para controlar un LCD con Visualino lo primero que se debhacer es descargar el software Visualino en http://www.visualino.net/index.es.html
+Para controlar un LCD con Visualino lo primero que se debe hacer es descargar el software Visualino en http://www.visualino.net/index.es.html
 
 * Se abre la pantalla que se muestra a continuación.
 
-![img1GC.png](https://github.com/CFernanda/GOOGLE-CLOUD-MV/blob/master/Imagenes/img1GC.png) 
+![11_Plataforma%20visualino.JPG](hhttps://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/11_Plataforma%20visualino.JPG) 
 
-En la parte inferior de la página se encuentra la opcion para descargar.
+**Figura 11:** Página de Visualino 
 
-![img1GC.png](https://github.com/CFernanda/GOOGLE-CLOUD-MV/blob/master/Imagenes/img1GC.png) 
+* En la parte inferior de la página se encuentra la opcion para descargar.
 
-**Creación de la cuenta**
-1. Ingresar a la pagina de GOOGLE CLOUD mediante el siguiente link. https://cloud.google.com/ aparece la pantalla que se muestra a continuación 
+![12_VisualinoDescarga.jpg](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/12_VisualinoDescarga.jpg) 
 
-![img1GC.png](https://github.com/CFernanda/GOOGLE-CLOUD-MV/blob/master/Imagenes/img1GC.png) 
+**Figura 12:** Descarga de Visualino 
 
-2. Para iniciar debemos dar click sobre **Empezar Gratis**, de abrirá una nueva ventana con un formulario del primer de dos paso que se debe seguir.
-![img2GC.png](https://github.com/CFernanda/GOOGLE-CLOUD-MV/blob/master/Imagenes/img2GC.png)
+* Damos click en la el gráfico de la descarga y se abre una nueva pantalla, que permitira elegir para que tidpo de sistema operativo se necesita descargar damos click en el que necesitemos y se despliega una nueva ventana donde muestras las versiones que tiene **Visualino** por lo general la última es la que más actualizada se encuentra.
 
-Se ingresa datos de la cuenta como nombre, correo el país y se aceptan las condiciones.
+![13_descargas_pasos.jpg](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/13_descargas_pasos.jpg) 
 
-3. Al dar click en **continuar** se abrirá otra ventana con el paso 2 se inresa los datos del Cliente y adicional pide un número de tarjeta de crédito que sirve solo para verificar la cuenta y permitirá trabajar con la cuenta de forma gratuita durante 12 meses.
+**Figura 13:** Ventanas de Descarga
 
-![paso2.JPG](https://github.com/CFernanda/GOOGLE-CLOUD-MV/blob/master/Imagenes/paso2.JPG) 
+* Se descargará un archivo comprimido Figura 14 el mismo que al descomprimir se mostrará una nueva carpeta mostrada en la Figura 15 con todo lo que arduino trae.
 
-![paso2s.JPG](https://github.com/CFernanda/GOOGLE-CLOUD-MV/blob/master/Imagenes/paso2s.JPG) 
+![14_en%20carpeta.JPG](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/14_en%20carpeta.JPG) ![15_Carpeta.JPG](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/15_Carpeta.JPG)  
 
-Al dar click en **Iniciar versión de prueba gratuita**  se abrirá una nueva ventana de inicio a la plataforma de GOOGLE CLOUD, y ha sido creada una nueva cuenta.
-
-![Img3VentanaInicio.png](https://github.com/CFernanda/GOOGLE-CLOUD-MV/blob/master/Imagenes/Img3VentanaInicio.png) 
-
-**Creación de Máquina Virtual**
-
-1. En la página de Inicio de dirige al **Menú de Navegación**, que se encuentra en la parte superior izquierda de la ventana.
-2. se busca la pestaña **Compute** y en ella **Compute Engine**  se despliegan opciones y se debe elegir la primera **Instancias de VM**
-
-![Img4Compute.png](https://github.com/CFernanda/GOOGLE-CLOUD-MV/blob/master/Imagenes/Img4Compute.png) 
-
-3. Se abrirá una nueva ventana en la que se debe escoger **Crear**.
-
-![Img5Crear.png](https://github.com/CFernanda/GOOGLE-CLOUD-MV/blob/master/Imagenes/Img5Crear.png) 
-
-4. Una nueva pantalla llamada **Crear una nueva Instancia**  en la que se especificarán los datos de la máquina que se creará.
- - El nombre de la maquina debe tener minusculas
- - Se escoge todos los detalles dependiendo de las necesidades para crear la máquina, si se requiere se puede cambiar el sistema operativo , la versión y su tamaño,
-
- ![Img6DetallesMaquina1.JPG](https://github.com/CFernanda/GOOGLE-CLOUD-MV/blob/master/Imagenes/Img6DetallesMaquina1.JPG) 
+**Figura 14:** Archivo comprimido en Carpeta                  **Figura 15:** Archivo Descomprimido en Carpeta 
+ 
+ * En la carpeta se encontrará el compilador como se muestra en la Figura 16,  si se desea se puede crear un acceso directo en el escritorio, Figura 17  para hacer fácil su ingreso, caso contrario dando doble click en el compilador ya se tiene el software Visualino para trabajar.
  
  
-  ![tiposdesistemasoperativos.png](https://github.com/CFernanda/GOOGLE-CLOUD-MV/blob/master/Imagenes/Img7tiposdesistemasoperativos.png)
+ [16_Compilador.JPG](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/16_Compilador.JPG)
+ 
+  **Figura 15:** Compilador
+ 
+ 
+ [17_ESCRITORIO.JPG](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/17_ESCRITORIO.JPG)
+  
+  **Figura 17:** Acceso directo en Escritorio 
+  
+  * Como se vio en la Figura 17 el Software se abre y esta listo para usarse,el entorno para trabajar es el mostrado a continuación en la Figura 18.
+  
+  [18_Visualino.JPG](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/18_Visualino.JPG)
+  
+  **Control de la LCD**
+  
+  
   
 
- Se debe dar Click en Crear y se procesará la  nueva máquina virtual en este caso se escogió el sitema operativo UBUNTU.
+  
 
- ![Img6DetallesMaquina2.JPG](https://github.com/CFernanda/GOOGLE-CLOUD-MV/blob/master/Imagenes/Img6DetallesMaquina2.JPG) 
- 
-5. Se abre una nueva ventana en la que se mostrará el proceso que lleva a cabo la máquina virtual cuando pase a verde la máquina estará lista para utilizarla.
-  
-  ![Img9MaquinasCreadas.png](https://github.com/CFernanda/GOOGLE-CLOUD-MV/blob/master/Imagenes/Img9MaquinasCreadas.png)
-  
-6. Se debe dar Click sobre SSH y s escoge la primera opción, seguido se abrirá la terminal de la Máquina creada en el sistema operativo Ubuntu.
- 
- ![MaquinaUbuntu.JPG)](https://github.com/CFernanda/GOOGLE-CLOUD-MV/blob/master/Imagenes/MaquinaUbuntu.JPG)
- 
- 
+
 
 
 
