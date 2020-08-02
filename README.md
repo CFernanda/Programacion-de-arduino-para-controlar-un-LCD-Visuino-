@@ -125,20 +125,19 @@ Los componentes que se encuentran en el software Visuino representan sus compone
 
 ![8_visuino.png]( https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/8_visuino.png)
 
+**Figura 8:** Entorno de Visuino
 
  **VISUALINO**
  
  ![Visualino_logo.jpg](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/Visualino_logo.jpg)
+ 
+ **Figura 9:** Visualino
   
 Entorno de programación visual para Arduino,permite hacer un programa con bloques tipo scratch y ver el código que se genera, como de un traductor de bloques a código se tratara. Pero además, permite programar directamente la placa de Arduino y por tanto, hace innecesaria la conexión permanente al PC.
 
 Los bloques generan el código de C/C++ en tiempo real en una ventana. El entorno es similar al del IDE de Arduino, con las mismas opciones principales: Verificar, Subir, Guardar, Cargar y Monitor.
 
-
-
-
-
-
+![entorno%20visualino.JPG](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/entorno%20visualino.JPG)
 
 ### BIBLIOGRAFÍAS
 http://arduino.cc/
