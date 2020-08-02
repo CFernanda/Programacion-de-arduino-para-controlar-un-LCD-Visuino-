@@ -149,7 +149,7 @@ Para controlar un LCD con Visualino lo primero que se debe hacer es descargar el
 
 * Se abre la pantalla que se muestra a continuación.
 
-![11_Plataforma%20visualino.JPG](hhttps://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/11_Plataforma%20visualino.JPG) 
+![11_Plataforma%20visualino.JPG](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/11_Plataforma%20visualino.JPG) 
 
 **Figura 11:** Página de Visualino 
 
