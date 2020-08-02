@@ -1,4 +1,4 @@
-# Programación de Arduino, control de un LCD en Visuino
+# Programación de Arduino, control de un LCD en Visuino-Visualino
 
 ### Introducción
 
@@ -16,6 +16,8 @@ Aprender a utilizar el software Visuino para la programación de un arduino con 
 
 ![1_arduino.png](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/1_arduino.png)
 
+**Figura 1:** Arduino
+
 Arduino es una plataforma de desarrollo basada en una placa electrónica de hardware libre que incorpora un microcontrolador re-programable y una serie de pines hembra. Estos permiten establecer conexiones entre el microcontrolador y los diferentes sensores y actuadores de una manera muy sencilla (principalmente con cables dupont).
 
 **ARDUINO UNO**
@@ -26,6 +28,8 @@ Parte Frontal
 Tiene todo lo necesario para manejar el controlador, simplemente conectamos al computador por medio del cable USB o una fuente de poder externa, que puede ser un adaptador AC-DC  o una batería, cabe aclarar que si se alimenta a través del cable USB en el ordenador no es necesario una fuente externa.
 
 ![2_arduinoplaca.png](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/2_arduinoplaca.png)
+
+**Figura 2:** Arduino uno
 
 Para programar la board se necesita el IDE Arduino.
 
@@ -45,6 +49,7 @@ Para programar la board se necesita el IDE Arduino.
 
 ![3_partes.jpg](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/3_partes.jpg)
 
+**Figura 3:** Partes del Arduino
 
 **LCD**
 
@@ -76,6 +81,8 @@ Número de caracteres. Hay diversos tamaños de LCD y con ello nos limitamos o n
 
 ![4_LCD.png](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/4_LCD.png)
 
+**Figura 4:** Características de LCD
+
 **Ejemplo de comunicación**
  
 1 Conexión.
@@ -104,11 +111,13 @@ Ajusta el potenciómetro para que el texto tenga el contraste que tú quieras.
 ![5_paraleloArduinoLCD.png](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/5_paraleloArduinoLCD.png)                                             ![6_esquema-LCD1-300x192.png]( https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/6_esquema-LCD1-300x192.png
 ) 
 
-   Diagrama de conexión en paraleo Arduino y LCD.      Esquema de conexión Arduino y LCD.
+**Figura 5:** Diagrama de conexión en paraleo Arduino y LCD.          **Figura 6:** Esquema de conexión Arduino y LCD.
 
 **VISUINO**
 
 ![7_Visuino.png]( https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/7_Visuino.png)
+
+**Figura 7:** Visuino
 
 Visuino es el último software innovador de Mitov Software. Un entorno de programación visual que le permite programar sus placas Arduino. Actualmente es compatible con las placas oficiales Arduino, Raspberry Pi, Teensy, Femto IO, ESP8266, ESP32, Controllino, Goldilocks Analogue, FreeSoC2, chipKIT, micro: bit, Maple Mini y la cantidad de clones Arduino, sin embargo, no se limita a su soporte solo y las solicitudes de soporte de nuevo hardware son bienvenidas.
 
@@ -117,6 +126,13 @@ Los componentes que se encuentran en el software Visuino representan sus compone
 ![8_visuino.png]( https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/8_visuino.png)
 
 
+ **VISUALINO**
+ 
+ ![Visualino_logo.jpg](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/Visualino_logo.jpg)
+  
+Entorno de programación visual para Arduino,permite hacer un programa con bloques tipo scratch y ver el código que se genera, como de un traductor de bloques a código se tratara. Pero además, permite programar directamente la placa de Arduino y por tanto, hace innecesaria la conexión permanente al PC.
+
+Los bloques generan el código de C/C++ en tiempo real en una ventana. El entorno es similar al del IDE de Arduino, con las mismas opciones principales: Verificar, Subir, Guardar, Cargar y Monitor.
 
 
 
