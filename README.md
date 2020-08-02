@@ -108,7 +108,7 @@ Pin de alimentación (+5V y GND).
 – El pin “Vo”, que controla el constraste, conectado a un potenciómetro. 
 Ajusta el potenciómetro para que el texto tenga el contraste que tú quieras.
 
-![5_paraleloArduinoLCD.png](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/5_paraleloArduinoLCD.png)                                             ![6_esquema-LCD1-300x192.png]( https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/6_esquema-LCD1-300x192.png
+![5_paraleloArduinoLCD.png](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/5_paraleloArduinoLCD.png)                                                                                           ![6_esquema-LCD1-300x192.png]( https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/6_esquema-LCD1-300x192.png
 ) 
 
 **Figura 5:** Diagrama de conexión en paraleo Arduino y LCD.          **Figura 6:** Esquema de conexión Arduino y LCD.
@@ -138,6 +138,78 @@ Entorno de programación visual para Arduino,permite hacer un programa con bloqu
 Los bloques generan el código de C/C++ en tiempo real en una ventana. El entorno es similar al del IDE de Arduino, con las mismas opciones principales: Verificar, Subir, Guardar, Cargar y Monitor.
 
 ![entorno%20visualino.JPG](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/entorno%20visualino.JPG)
+
+ **Figura 10:** Entorno Visualino
+ 
+ ## Manual de Usuario
+
+Para controlar un LCD con Visualino lo primero que se debhacer es descargar el software Visualino en http://www.visualino.net/index.es.html
+
+* Se abre la pantalla que se muestra a continuación.
+
+![img1GC.png](https://github.com/CFernanda/GOOGLE-CLOUD-MV/blob/master/Imagenes/img1GC.png) 
+
+En la parte inferior de la página se encuentra la opcion para descargar.
+
+![img1GC.png](https://github.com/CFernanda/GOOGLE-CLOUD-MV/blob/master/Imagenes/img1GC.png) 
+
+**Creación de la cuenta**
+1. Ingresar a la pagina de GOOGLE CLOUD mediante el siguiente link. https://cloud.google.com/ aparece la pantalla que se muestra a continuación 
+
+![img1GC.png](https://github.com/CFernanda/GOOGLE-CLOUD-MV/blob/master/Imagenes/img1GC.png) 
+
+2. Para iniciar debemos dar click sobre **Empezar Gratis**, de abrirá una nueva ventana con un formulario del primer de dos paso que se debe seguir.
+![img2GC.png](https://github.com/CFernanda/GOOGLE-CLOUD-MV/blob/master/Imagenes/img2GC.png)
+
+Se ingresa datos de la cuenta como nombre, correo el país y se aceptan las condiciones.
+
+3. Al dar click en **continuar** se abrirá otra ventana con el paso 2 se inresa los datos del Cliente y adicional pide un número de tarjeta de crédito que sirve solo para verificar la cuenta y permitirá trabajar con la cuenta de forma gratuita durante 12 meses.
+
+![paso2.JPG](https://github.com/CFernanda/GOOGLE-CLOUD-MV/blob/master/Imagenes/paso2.JPG) 
+
+![paso2s.JPG](https://github.com/CFernanda/GOOGLE-CLOUD-MV/blob/master/Imagenes/paso2s.JPG) 
+
+Al dar click en **Iniciar versión de prueba gratuita**  se abrirá una nueva ventana de inicio a la plataforma de GOOGLE CLOUD, y ha sido creada una nueva cuenta.
+
+![Img3VentanaInicio.png](https://github.com/CFernanda/GOOGLE-CLOUD-MV/blob/master/Imagenes/Img3VentanaInicio.png) 
+
+**Creación de Máquina Virtual**
+
+1. En la página de Inicio de dirige al **Menú de Navegación**, que se encuentra en la parte superior izquierda de la ventana.
+2. se busca la pestaña **Compute** y en ella **Compute Engine**  se despliegan opciones y se debe elegir la primera **Instancias de VM**
+
+![Img4Compute.png](https://github.com/CFernanda/GOOGLE-CLOUD-MV/blob/master/Imagenes/Img4Compute.png) 
+
+3. Se abrirá una nueva ventana en la que se debe escoger **Crear**.
+
+![Img5Crear.png](https://github.com/CFernanda/GOOGLE-CLOUD-MV/blob/master/Imagenes/Img5Crear.png) 
+
+4. Una nueva pantalla llamada **Crear una nueva Instancia**  en la que se especificarán los datos de la máquina que se creará.
+ - El nombre de la maquina debe tener minusculas
+ - Se escoge todos los detalles dependiendo de las necesidades para crear la máquina, si se requiere se puede cambiar el sistema operativo , la versión y su tamaño,
+
+ ![Img6DetallesMaquina1.JPG](https://github.com/CFernanda/GOOGLE-CLOUD-MV/blob/master/Imagenes/Img6DetallesMaquina1.JPG) 
+ 
+ 
+  ![tiposdesistemasoperativos.png](https://github.com/CFernanda/GOOGLE-CLOUD-MV/blob/master/Imagenes/Img7tiposdesistemasoperativos.png)
+  
+
+ Se debe dar Click en Crear y se procesará la  nueva máquina virtual en este caso se escogió el sitema operativo UBUNTU.
+
+ ![Img6DetallesMaquina2.JPG](https://github.com/CFernanda/GOOGLE-CLOUD-MV/blob/master/Imagenes/Img6DetallesMaquina2.JPG) 
+ 
+5. Se abre una nueva ventana en la que se mostrará el proceso que lleva a cabo la máquina virtual cuando pase a verde la máquina estará lista para utilizarla.
+  
+  ![Img9MaquinasCreadas.png](https://github.com/CFernanda/GOOGLE-CLOUD-MV/blob/master/Imagenes/Img9MaquinasCreadas.png)
+  
+6. Se debe dar Click sobre SSH y s escoge la primera opción, seguido se abrirá la terminal de la Máquina creada en el sistema operativo Ubuntu.
+ 
+ ![MaquinaUbuntu.JPG)](https://github.com/CFernanda/GOOGLE-CLOUD-MV/blob/master/Imagenes/MaquinaUbuntu.JPG)
+ 
+ 
+
+
+
 
 ### BIBLIOGRAFÍAS
 http://arduino.cc/
