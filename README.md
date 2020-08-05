@@ -12,16 +12,7 @@ Aprender a utilizar el software Visuino para la programación de un arduino con 
 
 ### Marco Teórico
 
-**ARDUINO**
-
-![1_arduino.png](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/1_arduino.png)
-
-**Figura 1:** Arduino
-
-Arduino es una plataforma de desarrollo basada en una placa electrónica de hardware libre que incorpora un microcontrolador re-programable y una serie de pines hembra. Estos permiten establecer conexiones entre el microcontrolador y los diferentes sensores y actuadores de una manera muy sencilla (principalmente con cables dupont).
-
 **ARDUINO UNO**
-
 La arduino Uno es una board basada en un microcontrolador Atmega328. Tiene 14 pines de entrada/salida digital (de los cuales 4 pueden ser utilizados para salidas PWM), 6 entradas análogas, un resonador cerámico de 16 MHz, un conector para USB tipo hembra, un Jack para fuente de Poder, un conector ICSP y un botón reset.
 
 Parte Frontal
@@ -29,7 +20,7 @@ Tiene todo lo necesario para manejar el controlador, simplemente conectamos al c
 
 ![2_arduinoplaca.png](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/2_arduinoplaca.png)
 
-**Figura 2:** Arduino uno
+**Figura 1:** Arduino uno
 
 Para programar la board se necesita el IDE Arduino.
 
@@ -49,21 +40,15 @@ Para programar la board se necesita el IDE Arduino.
 
 ![3_partes.jpg](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/3_partes.jpg)
 
-**Figura 3:** Partes del Arduino
+**Figura 2:** Partes del Arduino
 
 **LCD**
-
-El uso de las LCD se ha visto muy requerido tanto en la industria como en los proyectos escolares o de medianas empresas, ya que su uso es bastante agradable a la vista, aunque muchos de nosotros estamos acostumbrados a escuchar dichas siglas y pensar en una pantalla para TV o el display de un ordenador, mientras que los display LCD tienen una gama más abierta de aplicaciones, desde relojes, calculadoras, electrodomésticos, impresoras, etc.
-
 **Qué es una LCD?**
 
 Las siglas LCD significan “Liquid Cristal Display” ó pantalla de cristal líquido. Es una pantalla plana basada en el uso de una sustancia liquida atrapada entre dos placas de vidrio, haciendo pasar por este una corriente eléctrica a una zona especifica, para que así esta se vuelva opaca, y además cuenta (generalmente) con iluminación trasera.
 Las pantallas LCD de color, cada pixel individual se divide en tres cédulas o sub pixeles con los colores RGB (Rojo, Verde y Azul) respectivamente. Y así cada pixel puede controlarse para  producir una gran variedad de colores distintos.
  
 **Características de las LCD**
-
-Existen una gran variedad de proyectos en los que se incluye una LCD para interfaz con el usuario, lo que modifica las necesidades, las cuales es importante atender más que nada por los precios. Y la importancia de esta en el proyecto.
-Algunos factores básicos a considerar en una LCD son:
 
 * Tamaño: El tamaño de un panel LCD generalmente se mide a lo lardo de su diagonal, expresado generalmente en pulgadas. Sin embargo existen más características que pueden describir las dimensiones aproximadas, como por ejemplo la LCD 16×2 (negro sobre fondo azul) se refiere a que tiene la capacidad de tener al mismo tiempo 16 caracteres de manera horizontal en dos renglones (cada uno).
 
@@ -81,7 +66,7 @@ Número de caracteres. Hay diversos tamaños de LCD y con ello nos limitamos o n
 
 ![4_LCD.png](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/4_LCD.png)
 
-**Figura 4:** Características de LCD
+**Figura 3:** Características de LCD
 
 **Ejemplo de comunicación**
  
@@ -111,13 +96,13 @@ Ajusta el potenciómetro para que el texto tenga el contraste que tú quieras.
 ![5_paraleloArduinoLCD.png](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/5_paraleloArduinoLCD.png)                                                                                           ![6_esquema-LCD1-300x192.png]( https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/6_esquema-LCD1-300x192.png
 ) 
 
-**Figura 5:** Diagrama de conexión en paraleo Arduino y LCD.          **Figura 6:** Esquema de conexión Arduino y LCD.
+**Figura 4:** Diagrama de conexión en paraleo Arduino y LCD.          **Figura 5:** Esquema de conexión Arduino y LCD.
 
 **VISUINO**
 
 ![7_Visuino.png]( https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/7_Visuino.png)
 
-**Figura 7:** Visuino
+**Figura 6:** Visuino
 
 Visuino es el último software innovador de Mitov Software. Un entorno de programación visual que le permite programar sus placas Arduino. Actualmente es compatible con las placas oficiales Arduino, Raspberry Pi, Teensy, Femto IO, ESP8266, ESP32, Controllino, Goldilocks Analogue, FreeSoC2, chipKIT, micro: bit, Maple Mini y la cantidad de clones Arduino, sin embargo, no se limita a su soporte solo y las solicitudes de soporte de nuevo hardware son bienvenidas.
 
@@ -125,13 +110,13 @@ Los componentes que se encuentran en el software Visuino representan sus compone
 
 ![8_visuino.png]( https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/8_visuino.png)
 
-**Figura 8:** Entorno de Visuino
+**Figura 7:** Entorno de Visuino
 
  **VISUALINO**
  
  ![9_visualino.jpg](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/9_visualino.jpg)
  
- **Figura 9:** Visualino
+ **Figura 8:** Visualino
   
 Entorno de programación visual para Arduino,permite hacer un programa con bloques tipo scratch y ver el código que se genera, como de un traductor de bloques a código se tratara. Pero además, permite programar directamente la placa de Arduino y por tanto, hace innecesaria la conexión permanente al PC.
 
@@ -139,7 +124,7 @@ Los bloques generan el código de C/C++ en tiempo real en una ventana. El entorn
 
 ![10_entorno%20visualino.JPG](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/10_entorno%20visualino.JPG)
 
- **Figura 10:** Entorno Visualino
+ **Figura 9:** Entorno Visualino
  
  ## Manual de Usuario
  
@@ -151,46 +136,45 @@ Para controlar un LCD con Visualino lo primero que se debe hacer es descargar el
 
 ![11_Plataforma%20visualino.JPG](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/11_Plataforma%20visualino.JPG) 
 
-**Figura 11:** Página de Visualino 
+**Figura 10:** Página de Visualino 
 
 * En la parte inferior de la página se encuentra la opcion para descargar.
 
 ![12_VisualinoDescarga.jpg](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/12_VisualinoDescarga.jpg) 
 
-**Figura 12:** Descarga de Visualino 
+**Figura 11:** Descarga de Visualino 
 
 * Damos click en la el gráfico de la descarga y se abre una nueva pantalla, que permitira elegir para que tidpo de sistema operativo se necesita descargar damos click en el que necesitemos y se despliega una nueva ventana donde muestras las versiones que tiene **Visualino** por lo general la última es la que más actualizada se encuentra.
 
 ![13_descargas_pasos.jpg](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/13_descargas_pasos.jpg) 
 
-**Figura 13:** Ventanas de Descarga
+**Figura 12:** Ventanas de Descarga
 
-* Se descargará un archivo comprimido Figura 14 el mismo que al descomprimir se mostrará una nueva carpeta mostrada en la Figura 15 con todo lo que arduino trae.
+* Se descargará un archivo comprimido Figura 13 el mismo que al descomprimir se mostrará una nueva carpeta mostrada en la Figura 14 con todo lo que arduino trae.
 
 ![14_CARPETA.PNG](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/14_CARPETA.PNG)![15_Visualino.PNG](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/15_Visualino.PNG)  
 
-**Figura 14:** Archivo comprimido en Carpeta                  **Figura 15:** Archivo Descomprimido en Carpeta 
+**Figura 13:** Archivo comprimido en Carpeta                  **Figura 14:** Archivo Descomprimido en Carpeta 
  
- * En la carpeta se encontrará el compilador como se muestra en la Figura 16,  si se desea se puede crear un acceso directo en el escritorio, Figura 17  para hacer fácil su ingreso, caso contrario dando doble click en el compilador ya se tiene el software Visualino para trabajar.
+ * En la carpeta se encontrará el compilador como se muestra en la Figura 15,  si se desea se puede crear un acceso directo en el escritorio, Figura 16  para hacer fácil su ingreso, caso contrario dando doble click en el compilador ya se tiene el software Visualino para trabajar.
  
  
 ![16_Compilador.JPG](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/16_Compilador.JPG)
  
-  **Figura 16:** Compilador
+  **Figura 15:** Compilador
  
 ![17_%20Escritorio.JPG](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/17_%20Escritorio.JPG)
  
- **Figura 17:** Acceso directo en Escritorio 
+ **Figura 16:** Acceso directo en Escritorio 
   
-  * Como se vio en la Figura 17 el Software se abre y esta listo para usarse,el entorno para trabajar es el mostrado a continuación en la Figura 18.
+  * Como se vio en la Figura 16 el Software se abre y esta listo para usarse,el entorno para trabajar es el mostrado a continuación en la Figura 17.
   * Al ingresar en visualino tenemos en la parte izquierda los bloques con diferentes funciones el area para crear el codigo de los bloques y en la parte derecha esta una hoja en la que se va a ir formando el codigo de bloques en C++. como se vio en la figuran
  
  ![19_Area%20de%20trabajo.JPG](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/19_Area%20de%20trabajo.JPG)
  
-  **Figura 18:** Entorno de Visualino
-  
-  
-  **Control de la LCD**
+  **Figura 17:** Entorno de Visualino
+
+**Control de la LCD**
   
 **CÓDIGO**
 
@@ -198,7 +182,7 @@ Para controlar un LCD con Visualino lo primero que se debe hacer es descargar el
 
 ![20_LCD.PNG](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/20_LCD.PNG)
 
-**Figura 19:** Bloques para LCD
+**Figura 18:** Bloques para LCD
   
  - LCD (2x16): En este bloque se puede ingresar el número de pines con los que se va a trabajar
  
@@ -208,27 +192,29 @@ Para controlar un LCD con Visualino lo primero que se debe hacer es descargar el
  
 A l iniciar en el Visualino se tiene el bloque de incio y repetir en la primera para el LCD  como se muestra en la figura 18  en la parte de inicio entra el codigo para  dar inico al programa y en repetir todo lo que queremos que la pantalla LCD repita.  
 
-- Por lo cual en la figura 20 se muestra el código cuando queremos que el mensaje que enviemos al inicio sea estático y durará por 1s estara en la parte de Inicio.
+- Por lo cual en la figura 19 se muestra el código cuando queremos que el mensaje que enviemos al inicio sea estático y durará por 1s estara en la parte de Inicio.
 
 ![20_PARTE%20DE%20INICIO.PNG](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/20_PARTE%20DE%20INICIO.PNG)
 
+**Figura 19** Codigo para mensaje estático.
+
 Como podemos ver solo se utiliza adicional al bloque de imprimir, bloques de texto para el mensaje, matemáticaspara definir las filas y columnas y un bloque controlador para el tiempo que necesitemos el mensaje.
 
-- En la figura 21 se muestra el codigo para la LCD genere un mensaje que sea repetitivo por un tiempo teniendo en cuento que esto debe estar en la parte de Repetir.
+- En la figura 20 se muestra el codigo para la LCD genere un mensaje que sea repetitivo por un tiempo teniendo en cuento que esto debe estar en la parte de Repetir.
 
 ![20_PARTE%20DE%20INICIO1.PNG](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/20_PARTE%20DE%20INICIO1.PNG)
 ![20_PARTE%20DE%20INICIO2.PNG](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/20_PARTE%20DE%20INICIO2.PNG)
 
-**Figura 21:** Codigo para que un mensaje sea repetitivo.
+**Figura 20:** Codigo para que un mensaje sea repetitivo.
 
 Como se ve en esta ocasión se requiere de bloques de control que permitan realizar lo que en progrmacion basica se conoce como bucles FOR para que el mensaje sea repetitivo,bloques de texto para el mensaje, matemáticaspara definir las filas.
  y columnas y un bloque controlador para el tiempo que necesitemos el mensaje. 
 
-Finalmente el código queda así como se muestra en la figura 22
+Finalmente el código queda así como se muestra en la figura 21
 
 ![codigoCompleto.png](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/codigoCompleto.png)
 
-**Figur 22:** Codigo completo, muestra un mensaje estático por un tiempo y luego un mensaje repetivo en constaste movimiento.
+**Figur 21:** Codigo completo, muestra un mensaje estático por un tiempo y luego un mensaje repetivo en constaste movimiento.
 
 **Circuito en Tinkercad**
 
@@ -237,30 +223,25 @@ Entonces en la plataforma TINKERCAD se arma el circuito figura 22 teniendo en cu
 
 ![23_Circuito%20LCD.PNG](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/23_Circuito%20LCD.PNG)
 
-**Figura 23:** Circuito armado en Tinkercad.
+**Figura 22:** Circuito armado en Tinkercad.
 
 El potenciómetro se utiliza para regular el contraste de la pantalla y la resistencia es de protección.
 En la parte superior Izquierda se encuentra una pestaña que doice **Código** y junto  ell **Iniciar simulación** damos click en **Código** y se nos abre una ventana donde debemos ingresar el codigo que se hizo en  visualino.
 
 ![24_entornoTINKERCAD.png](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/24_entornoTINKERCAD.png)
 
-**Figura 24:** Botones de Código e iniicar simulación.
+**Figura 23:** Botones de Código e iniicar simulación.
 
 ![25_Codigo_tinkercad.PNG](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/25_Codigo_tinkercad.PNG)
 
-**Figura 25**: Código de visualino copiado en tinkercad
+**Figura 24**: Código de visualino copiado en tinkercad
 
-una vez ingresado damos click en el botón **iniciar la simulación**  y se puede visualizar el mensaje.
+una vez ingresado el código damos click en el botón **iniciar la simulación**  y se puede visualizar el mensaje.
 
-
-
-
+https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/26_Mensaje%20en%20la%20LCD.png
 
 
-
-
-
-
+**Figura 25:** LCD controlado por arduino.
 
 ### BIBLIOGRAFÍAS
 http://arduino.cc/
