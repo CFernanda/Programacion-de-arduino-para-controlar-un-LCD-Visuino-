@@ -238,7 +238,7 @@ En la parte superior Izquierda se encuentra una pestaña que doice **Código** y
 
 una vez ingresado el código damos click en el botón **iniciar la simulación**  y se puede visualizar el mensaje.
 
-https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/26_Mensaje%20en%20la%20LCD.png
+![26_Mensaje%20en%20la%20LCD.png](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/26_Mensaje%20en%20la%20LCD.png)
 
 
 **Figura 25:** LCD controlado por arduino.
