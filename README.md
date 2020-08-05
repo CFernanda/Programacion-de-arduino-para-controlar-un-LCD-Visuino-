@@ -176,32 +176,41 @@ Para controlar un LCD con Visualino lo primero que se debe hacer es descargar el
  
 ![16_Compilador.JPG](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/16_Compilador.JPG)
  
-  **Figura 15:** Compilador
+  **Figura 16:** Compilador
  
 ![17_%20Escritorio.JPG](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/17_%20Escritorio.JPG)
-  **Figura 17:** Acceso directo en Escritorio 
+ 
+ **Figura 17:** Acceso directo en Escritorio 
   
   * Como se vio en la Figura 17 el Software se abre y esta listo para usarse,el entorno para trabajar es el mostrado a continuación en la Figura 18.
+  * Al ingresar en visualino tenemos en la parte izquierda los bloques con diferentes funciones el area para crear el codigo de los bloques y en la parte derecha esta una hoja en la que se va a ir formando el codigo de bloques en C++. como se vio en la figuran
+ 
+ ![19_Area%20de%20trabajo.JPG](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/19_Area%20de%20trabajo.JPG)
+ 
+  **Figura 18:** Entorno de Visualino
   
- ![18_Visualino.JPG](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/18_Visualino.JPG)
   
   **Control de la LCD**
+  
 **CÓDIGO**
-Para hacer el control de una LCD en el programa visualino se utiliza los bloques directos de LCD 
 
- ![20_LCD.PNG](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/20_LCD.PNG)
- 
- **Figura 19:** Bloques para controlar LCD 
- 
-  - LCD (2x16): En este bloque se puede ingresar el número de pines con los que se va a trabajar
+* Para hacer el control de una LCD en el programa visualino se utiliza los bloques directos de LCD 
+
+![20_LCD.PNG](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/20_LCD.PNG)
+
+**Figura 19:** Bloques para LCD
+  
+ - LCD (2x16): En este bloque se puede ingresar el número de pines con los que se va a trabajar
  
  - LCD IMPRIMIR: con ayuda de otro tipo de funciones como las de **"TEXTO"** se ingresa el mensaje que se desea imprimir, ademas permite escoger en que fila o columna va a ir el mensaje.
  
  - El cuarto bloque controla la iluminación.
  
-A l iniciar en el Visualino se tiene el bloque de incio y repetir en la primera para el LCD   como se muestra en la figura 18  en la parte de inicio entra el codigo para  dar inico al programa y en repetir todo lo que queremos que el LCD repita.
+A l iniciar en el Visualino se tiene el bloque de incio y repetir en la primera para el LCD   como se muestra en la figura 18  en la parte de inicio entra el codigo para  dar inico al programa y en repetir todo lo que queremos que el LCD repita.  y 
 
 - Por lo cual en la figura 20 se muestra el código cuando queremos que el mensaje que enviemos al inicio sea estático y durará por 1s estara en la parte de Inicio.
+
+![20_LCD.PNG](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/20_LCD.PNG)
 
 Como podemos ver solo se utiliza adicional al bloque de imprimir, bloques de texto para el mensaje, matemáticaspara definir las filas y columnas y un bloque controlador para el tiempo que necesitemos el mensaje.
 
