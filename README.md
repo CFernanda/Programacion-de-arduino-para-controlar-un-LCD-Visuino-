@@ -210,11 +210,71 @@ Como podemos ver solo se utiliza adicional al bloque de imprimir, bloques de tex
 Como se ve en esta ocasión se requiere de bloques de control que permitan realizar lo que en progrmacion basica se conoce como bucles FOR para que el mensaje sea repetitivo,bloques de texto para el mensaje, matemáticaspara definir las filas.
  y columnas y un bloque controlador para el tiempo que necesitemos el mensaje. 
 
-Finalmente el código queda así como se muestra en la figura 21
+Finalmente el código en bloques queda así como se muestra en la figura 21
 
 ![codigoCompleto.png](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/codigoCompleto.png)
 
 **Figur 21:** Codigo completo, muestra un mensaje estático por un tiempo y luego un mensaje repetivo en constaste movimiento.
+
+A continuación el código que genera visualino en C++
+
+**#include <Wire.h>
+
+#include <LiquidCrystal.h>
+
+/***   Global variables   ***/
+
+LiquidCrystal lcd(12, 11, 3, 5, 6, 7);
+
+/***   Function declaration   ***/
+
+**void setup()
+
+{
+
+  lcd.begin(16, 2);
+  
+  lcd.setCursor(6,0);
+  
+  lcd.print("POR USTED");
+  
+  lcd.setCursor(2,1);
+  
+  lcd.print("Y SU FAMILIA");
+  
+  delay(1000);
+  
+  lcd.clear();
+  
+}
+
+void loop()
+
+{
+
+   for ( int palabra=0; palabra <= 15; palabra++) {
+   
+lcd.setCursor(palabra,0);
+      
+lcd.print("QUEDESE");
+      lcd.setCursor(palabra,1);
+      
+   lcd.print("EN CASA");
+   
+delay(500);
+      lcd.clear();
+    }
+  for (int palabra=15; palabra >= 0; palabra--) {
+      lcd.setCursor(palabra,0);
+      lcd.print("LAVESE");
+      lcd.setCursor(palabra,1);
+      lcd.print("LAS MANOS");
+      delay(500);
+      lcd.clear();
+    }
+}
+/***   Function definition   ***/**
+
 
 **Circuito en Tinkercad**
 
