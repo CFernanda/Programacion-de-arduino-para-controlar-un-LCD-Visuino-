@@ -186,8 +186,51 @@ Para controlar un LCD con Visualino lo primero que se debe hacer es descargar el
  ![18_Visualino.JPG](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/18_Visualino.JPG)
   
   **Control de la LCD**
-1
+**CÓDIGO**
+Para hacer el control de una LCD en el programa visualino se utiliza los bloques directos de LCD 
+
+ ![20_LCD.PNG](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/20_LCD.PNG)
+ 
+ **Figura 19:** Bloques para controlar LCD 
+ 
+  - LCD (2x16): En este bloque se puede ingresar el número de pines con los que se va a trabajar
+ 
+ - LCD IMPRIMIR: con ayuda de otro tipo de funciones como las de **"TEXTO"** se ingresa el mensaje que se desea imprimir, ademas permite escoger en que fila o columna va a ir el mensaje.
+ 
+ - El cuarto bloque controla la iluminación.
+ 
+A l iniciar en el Visualino se tiene el bloque de incio y repetir en la primera para el LCD   como se muestra en la figura 18  en la parte de inicio entra el codigo para  dar inico al programa y en repetir todo lo que queremos que el LCD repita.
+
+- Por lo cual en la figura 20 se muestra el código cuando queremos que el mensaje que enviemos al inicio sea estático y durará por 1s estara en la parte de Inicio.
+
+Como podemos ver solo se utiliza adicional al bloque de imprimir, bloques de texto para el mensaje, matemáticaspara definir las filas y columnas y un bloque controlador para el tiempo que necesitemos el mensaje.
+
+- En la figura 21 se muestra el codigo para la LCD genere un mensaje que sea repetitivo por un tiempo
+
+
+Como se ve en esta ocasión se requiere de bloques de control que permitan realizar lo que en progrmacion basica se conoce como bucles FOR para que el mensaje sea repetitivo,bloques de texto para el mensaje, matemáticaspara definir las filas y columnas y un bloque controlador para el tiempo que necesitemos el mensaje. 
+
+Finalmente el código queda así como se muestra en la figura 22.
+
+
+**Circuito en Tinkercad**
+
+Para comprobar que el código funciona se debe armar el circuito con el arduino y la LCD, cargar el codigo dando click en el botòn subir y nos mostrara lo que se programó.
+
+Entonces en la plataforma TINKERCAD se arma el circuitO figura 22 teniendo en cuenta lo pines a trabajar y los pines que van a tierra y a VCC.
+
+
+El potenciometro se utiliza para regular el contraste de la pantalla y la resistencia es de protección.
+
+
+En la parte superior Izquierda se encuentra una pestaña que doce **Código** damos click y se nos abre una ventana donde debemos ingresar el codigo que se hizo en la parte anterior. 
+
+
+una vez ingresado damos click en el boton simula
+
 
 ### BIBLIOGRAFÍAS
 http://arduino.cc/
 https://www.visuino.com/
+
+
