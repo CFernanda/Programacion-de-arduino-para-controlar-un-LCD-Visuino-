@@ -313,11 +313,16 @@ una vez ingresado el código damos click en el botón **iniciar la simulación**
 
 **Figura 25:** LCD controlado por arduino.
 
+
+El circuito se puede vizualizar en el siguiente link: https://www.tinkercad.com/things/cLroScuVCB8-circuito-lcd-visuino/editel?sharecode=cfJPNKXo50C3dmzCRooYMlN2qi0iDQ9h4vKYaAh0THk
+
 ### BIBLIOGRAFÍAS
 
 http://arduino.cc/
 
 https://www.visuino.com/
+
+http://www.visualino.net/index.es.html
 
 https://www.youtube.com/watch?v=R-CRIthB7ZY
 
