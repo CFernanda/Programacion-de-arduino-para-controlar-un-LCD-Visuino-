@@ -18,7 +18,7 @@ La arduino Uno es una board basada en un microcontrolador Atmega328. Tiene 14 pi
 Parte Frontal
 Tiene todo lo necesario para manejar el controlador, simplemente conectamos al computador por medio del cable USB o una fuente de poder externa, que puede ser un adaptador AC-DC  o una batería, cabe aclarar que si se alimenta a través del cable USB en el ordenador no es necesario una fuente externa.
 
-![2_arduinoplaca.png](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/2_arduinoplaca.png)
+![1_arduinoplaca.png](https://github.com/CFernanda/Programacion-de-arduino-para-controlar-un-LCD-Visuino-/blob/master/IMG/1_arduinoplaca.png)
 
 **Figura 1:** Arduino uno
 
