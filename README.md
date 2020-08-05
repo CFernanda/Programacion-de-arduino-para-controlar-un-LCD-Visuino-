@@ -126,9 +126,9 @@ Los bloques generan el código de C/C++ en tiempo real en una ventana. El entorn
 
  **Figura 9:** Entorno Visualino
  
- ## Manual de Usuario
+# Manual de Usuario
  
-**Descarga e Instalación de Visualino**
+## **Descarga e Instalación de Visualino**
 
 Para controlar un LCD con Visualino lo primero que se debe hacer es descargar el software Visualino en http://www.visualino.net/index.es.html
 
@@ -174,7 +174,7 @@ Para controlar un LCD con Visualino lo primero que se debe hacer es descargar el
  
   **Figura 17:** Entorno de Visualino
 
-**Control de la LCD**
+## Control de la LCD
   
 **CÓDIGO**
 
@@ -262,21 +262,31 @@ lcd.print("QUEDESE");
    lcd.print("EN CASA");
    
 delay(500);
-      lcd.clear();
-    }
+lcd.clear();
+      
+ }
+ 
   for (int palabra=15; palabra >= 0; palabra--) {
-      lcd.setCursor(palabra,0);
-      lcd.print("LAVESE");
-      lcd.setCursor(palabra,1);
-      lcd.print("LAS MANOS");
-      delay(500);
-      lcd.clear();
-    }
+  
+   lcd.setCursor(palabra,0);
+   
+  lcd.print("LAVESE");
+  
+  lcd.setCursor(palabra,1);
+   lcd.print("LAS MANOS");
+ 
+ delay(500);
+ 
+ lcd.clear();
+
 }
+
+}
+
 /***   Function definition   ***/**
 
 
-**Circuito en Tinkercad**
+## **Circuito en Tinkercad**
 
 Para comprobar que el código funciona se debe armar el circuito con el arduino y la LCD, cargar el codigo dando click en el botòn subir y nos mostrara lo que se programó.
 Entonces en la plataforma TINKERCAD se arma el circuito figura 22 teniendo en cuenta lo pines a trabajar y los pines que van a tierra y a VCC.
@@ -304,7 +314,13 @@ una vez ingresado el código damos click en el botón **iniciar la simulación**
 **Figura 25:** LCD controlado por arduino.
 
 ### BIBLIOGRAFÍAS
+
 http://arduino.cc/
+
 https://www.visuino.com/
+
+https://www.youtube.com/watch?v=R-CRIthB7ZY
+
+
 
 
